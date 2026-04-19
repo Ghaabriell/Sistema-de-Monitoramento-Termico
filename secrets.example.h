@@ -1,0 +1,12 @@
+#ifndef SECRETS_H
+#define SECRETS_H
+
+#define WIFI_SSID "SUA_REDE_WIFI"
+#define WIFI_PASSWORD "SUA_SENHA_WIFI"
+
+#define TELEGRAM_BOT_TOKEN "SEU_TOKEN"
+#define TELEGRAM_CHAT_ID "SEU_CHAT_ID"
+
+#define WEBHOOK_URL "SUA_URL"
+
+#endif
