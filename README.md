@@ -1,5 +1,4 @@
 # 🌡️ Sistema de Monitoramento Térmico IoT com ESP32
-
 > [!IMPORTANT] 
 > Este repositório contém um projeto estritamente para fins acadêmicos e de portfólio profissional.
 > 
@@ -76,7 +75,15 @@ Para alinhar o projeto aos padrões industriais, o desenvolvimento considerou as
 3. **Configuração de Alertas:**
    - No código, substitua as variáveis `telegramBotToken`, `chatID` e `webhookURL` pelas suas credenciais.
    - O limite de temperatura é ajustável na constante `TEMP_THRESHOLD_C`.
+---
 
+## 🔗 Acesso ao Projeto
+Você pode testar a lógica e as notificações deste sistema diretamente no seu navegador através do simulador Wokwi:
+
+👉[![Wokwi Simulation](https://img.shields.io/badge/Simular_no-Wokwi-blue?style=for-the-badge&logo=wokwi)](https://wokwi.com/projects/461777091023625217)
+
+
+---
 ---
 
 **Desenvolvido por João Ghabriel - Estudante de Engenharia de Produção e Técnico em Eletrotécnica.**
