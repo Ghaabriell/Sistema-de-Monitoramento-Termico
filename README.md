@@ -14,6 +14,12 @@ Sistema IoT desenvolvido para monitoramento térmico em tempo real, integrando h
 
 Este projeto foi desenvolvido com foco em **Engenharia de Produção**, unindo conceitos de automação, elétrica, segurança do trabalho e práticas da Indústria 4.0.
 
+- - -
+## 🚀 Competências Aplicadas
+*   **Linguagens:** C++, Embedded C.
+*   **Protocolos & APIs:** HTTP, Webhooks, Telegram Bot API.
+*   **Hardware:** ESP32, Sensores Digitais (DHT22), Atuadores (Relés).
+*   **Engenharia:** Manutenção Preditiva, NR-10, NR-12, Lógica de Controle.
 ---
 
 ## 🗺️ Fluxograma de Funcionamento
