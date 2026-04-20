@@ -14,12 +14,25 @@ Sistema IoT desenvolvido para monitoramento térmico em tempo real, integrando h
 
 Este projeto foi desenvolvido com foco em **Engenharia de Produção**, unindo conceitos de automação, elétrica, segurança do trabalho e práticas da Indústria 4.0.
 
+---
+
+## 🎯 Funcionalidades e Aplicações
+
+A lógica do sistema é versátil e pode ser aplicada em qualquer ambiente que exija controle de temperatura:
+
+*   **Automação de Arrefecimento:** Acionamento imediato de sistemas de exaustão/ventilação via módulo relé ao atingir limites críticos.
+*   **Monitoramento Remoto:** Integração via **Webhooks** e **Telegram Bot API** para alertas instantâneos no smartphone.
+*   **Gestão de Riscos:** Prevenção de incêndios e falhas catastróficas em equipamentos sensíveis.
+*   **Logs de Eventos via Telegram:** O sistema realiza o **registro sequencial de todas as anomalias e normalizações** diretamente no chat do administrador via Telegram, funcionando como um histórico contínuo de notificações em tempo real. Além disso, esses registros podem ser utilizados como uma **base de dados para análise de performance do sistema**, contribuindo para a identificação de padrões de falhas, avaliação de eficiência operacional e suporte à conformidade com normas técnicas aplicáveis.
 - - -
-## 🚀 Competências Aplicadas
-*   **Linguagens:** C++, Embedded C.
-*   **Protocolos & APIs:** HTTP, Webhooks, Telegram Bot API.
-*   **Hardware:** ESP32, Sensores Digitais (DHT22), Atuadores (Relés).
-*   **Engenharia:** Manutenção Preditiva, NR-10, NR-12, Lógica de Controle.
+## 🚀 Competências Técnicas Aplicadas
+| Categoria | Tecnologias e Conceitos |
+| :--- | :--- |
+| **Desenvolvimento** | C++, Embedded C |
+| **Protocolos & IoT** | HTTP, Webhooks, REST APIs (Telegram Bot) |
+| **Hardware** | ESP32, Sensor DHT22, Atuadores (Módulo Relé) |
+| **Engenharia** | Automação Industrial, Manutenção Preditiva, Gestão de Ativos |
+| **Normatização** | NR-10, NR-12, NBR 5410, NBR IEC 61439 |
 ---
 
 ## 🗺️ Fluxograma de Funcionamento
@@ -32,11 +45,11 @@ O sistema segue uma lógica de controle de malha fechada, monitorando variáveis
 
 ## 📺 Demonstração do Protótipo
 > [!IMPORTANT]
-> **[
+> **Assista à demonstração**
 
 https://github.com/user-attachments/assets/77cdbc14-ff2f-4427-b29e-7a67adb5791c
 
-]**
+
 
 No vídeo acima, observa-se o funcionamento completo:
 1. **Monitoramento:** O sensor DHT22 realiza a leitura constante da temperatura. Enquanto estiver abaixo de 40°C, o sistema permanece em estado `NORMAL`.
@@ -83,7 +96,7 @@ Para alinhar o projeto aos padrões industriais, o desenvolvimento considerou as
    - O limite de temperatura é ajustável na constante `TEMP_THRESHOLD_C`.
 ---
 
-## 🔗 Acesso ao Projeto
+## 🔗 Acesso ao Projeto (Simulação Interativa)
 Você pode testar a lógica e as notificações deste sistema diretamente no seu navegador através do simulador Wokwi:
 
 👉[![Wokwi Simulation](https://img.shields.io/badge/Simular_no-Wokwi-blue?style=for-the-badge&logo=wokwi)](https://wokwi.com/projects/461777091023625217)
@@ -98,6 +111,8 @@ Você pode testar a lógica e as notificações deste sistema diretamente no seu
 ## 🛡️ Propriedade Intelectual e Uso
 Este projeto foi desenvolvido como parte de um percurso acadêmico. 
 
-*   **Finalidade:** Demonstração de competências técnicas em elétrica, automação, IoT e segurança do trabalho.
-*   **Restrições:** Todos os direitos estão reservados. É estritamente proibida a reprodução, distribuição, modificação ou uso comercial deste código, fluxogramas e metodologia sem a autorização prévia do autor.
-*   **Contato:** email:joaoghabrielba@gmail.com para solicitações de uso ou dúvidas técnicas.
+*   **Finalidade:**
+Este projeto representa a integração entre minha formação técnica em Eletrotécnica e meus estudos em Engenharia de Produção e Tecnologia da Informação.
+Sua finalidade é demonstrar a capacidade de transformar conhecimentos de infraestrutura elétrica em uma solução digital aplicada à automação e monitoramento. Trata-se de uma Prova de Conceito (PoC) que utiliza lógica de programação embarcada para resolver problemas reais de segurança e controle, marcando o início do desenvolvimento de sistemas inteligentes voltados à digitalização de processos industriais.
+*   **Restrições:** Direitos reservados. Proibida a reprodução ou uso comercial sem autorização prévia.
+*   **Contato:** [joaoghabrielba@gmail.com](mailto:joaoghabrielba@gmail.com)
